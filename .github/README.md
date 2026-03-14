@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-iottwinmaker`](https://www.npmjs.com/package/@aws-sdk/client-iottwinmaker/v/3.1008.0).
+[`@aws-sdk/client-iottwinmaker`](https://www.npmjs.com/package/@aws-sdk/client-iottwinmaker/v/3.1009.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iottwinmaker@3.1008.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iottwinmaker@3.1009.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-1HpwynH4c0EUX2eT0rzaNunnsNpwGY+uxV+J+Wv3nyJNPGYA+rqIG1UfQLizqcu2
+sha384-izIv1OWG0b2H+QZUQgAxYI+5UYMxqD2waw258x272pGW/9I06xvYat6yYZ2H32ph
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-iottwinmaker": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iottwinmaker@3.1008.0/index.min.mjs"
+            "@aws-sdk/client-iottwinmaker": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iottwinmaker@3.1009.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iottwinmaker@3.1008.0/index.min.mjs": "sha384-1HpwynH4c0EUX2eT0rzaNunnsNpwGY+uxV+J+Wv3nyJNPGYA+rqIG1UfQLizqcu2"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iottwinmaker@3.1009.0/index.min.mjs": "sha384-izIv1OWG0b2H+QZUQgAxYI+5UYMxqD2waw258x272pGW/9I06xvYat6yYZ2H32ph"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-iottwinmaker": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iottwinmaker@3.1008.0/index.min.mjs"
+                        "@aws-sdk/client-iottwinmaker": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iottwinmaker@3.1009.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iottwinmaker@3.1008.0/index.min.mjs": "sha384-1HpwynH4c0EUX2eT0rzaNunnsNpwGY+uxV+J+Wv3nyJNPGYA+rqIG1UfQLizqcu2"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iottwinmaker@3.1009.0/index.min.mjs": "sha384-izIv1OWG0b2H+QZUQgAxYI+5UYMxqD2waw258x272pGW/9I06xvYat6yYZ2H32ph"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1008.0`)
+* Always pin to a specific version (`@3.1009.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-iottwinmaker/blob/refs/tags/3.1008.0/LICENSE
+https://github.com/cloud-sdk-builds/client-iottwinmaker/blob/refs/tags/3.1009.0/LICENSE
 ```
 
 ---
